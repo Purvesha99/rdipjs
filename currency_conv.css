@@ -7,3 +7,8 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+input{
+	padding: 8px 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
