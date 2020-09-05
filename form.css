@@ -10,3 +10,8 @@ button{
 	cursor: pointer;
 	background-color: #4CAF50;
 }
+input{
+	padding: 8px 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
