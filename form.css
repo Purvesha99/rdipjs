@@ -1,0 +1,12 @@
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input:focus {
+  border: 2px solid #555;
+}
+button{
+	cursor: pointer;
+	background-color: #4CAF50;
+}

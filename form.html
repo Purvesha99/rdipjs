@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script type="text/javascript" src="combine.js"></script>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div>
+		<form action="response.html" method="POST" onsubmit="validation()">
+		  <fieldset>
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="Your name..">
+			<br><br>
+			<label for="number">Phone Number</label>
+			<input type="tel" name="number" id="number" placeholder="Your number..">
+			<br><br>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="Your email..">
+			<br><br>
+			<button type="submit">Submit</button>
+		  </fieldset>
+		</form>
+	</div>
+</body>
+</html>
